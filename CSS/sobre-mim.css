@@ -1,0 +1,61 @@
+body{
+    background-color:#00D7FF ;
+
+}
+
+.perfil-img{
+
+    display: flex ;
+    margin-top:100px ;
+    margin-left: 40%;
+    max-width:400px;
+    max-height:250px;
+    border-radius: 50px 10px 10px 50px;
+}
+h1{
+    
+    position: absolute;              
+    top: 5%;                        
+    transform: translate(0, -50%) ;
+    display: flex;
+    left: 43%;
+}
+
+.perfil{
+    font-size: 40px;
+}
+.texto {
+    font-size: 25px;
+    text-align: center;
+    margin:2em   4em ;
+}
+ 
+
+
+strong{
+    color:blue;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .perfil-img{
+    
+    display: flex;
+  
+    margin-left: 20%;
+
+    }
+
+.perfil{
+
+    margin-left:-12%;
+
+}
+.texto{
+    margin-top: 10%;
+}
+
+
+
+
+}
